@@ -4,22 +4,16 @@
   "description": "Examples illustrating the features of the haeley real-time rendering framework.",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
-    "parcel-bundler": "^1.6.1",
     "rxjs": "~6.4.0",
     "webgl-operate": "0.7.1"
   },
   "devDependencies": {
-    "typescript": "4.4.4"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
-  },
-  "keywords": [
-    "typescript",
-    "javascript"
-  ]
+    "typescript": "4.4.4",
+    "vite": "^2.4.3"
+  }
 }
