@@ -6,13 +6,11 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "allowJs": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "target": "ES6",
     "rootDir": "src",
     "moduleResolution": "node",
     "strictPropertyInitialization": false
-  }
+  },
+  "include": ["./src"]
 }
